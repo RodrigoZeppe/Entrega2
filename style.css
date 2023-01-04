@@ -1,0 +1,1044 @@
+.item{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#item5, #item6, #item7{
+    color: #000;
+}
+#item1{
+
+    text-align: center;
+    color: #8C3E62;
+    letter-spacing: 5px;
+    font-family: fangsong;
+    border: 5px solid #8C3E62;
+    background-color: #390D02;
+    font-size: 100%;
+}
+
+#item2{
+    background-color: #8C3E62;
+    font-size: 20%;
+}
+
+#item2{
+    background-color: #8C3E62;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 2;
+}
+
+#item3{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#item4{
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#item5{
+    background-color: #BEE3E5;
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.listas ul li{
+    position: relative;
+    /* text-align: center; */
+    list-style: none;
+    display:inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+    bottom: 0px;
+}
+
+.listas ul li a{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    color: #F27777;
+    bottom: 5px;
+}
+
+.listas ul li a:hover{
+    color: #390D02;
+}
+
+.listas ul h2 li a p{
+    color: pink;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.listas ul h2 li a p:hover{
+    color: red;
+}
+
+#item4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.fondocontacto a img{
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    padding: 5px 5px ;
+}
+
+
+.fondocontacto img{
+    position: relative;
+    width: 50%;
+    display: inline;
+    border: solid 2px black;
+    justify-content: space-between;
+    align-items: center;
+    /* color: green; */
+}
+
+#diego_dreifus{
+    background-color: rgb(45, 12, 5);
+    grid-row-start: 3;
+    grid-row-end: 5;    /*modificar*/
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+ 
+ /*************************************************************************
+ ************************VISTA CEL************************************
+ ***************************************************************************/
+
+ @media (max-width: 719px){
+    #container{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 1800px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #container_videos{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 930px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+
+    .listas ul li{
+        padding: 0px 0px 0px 1px;
+        right: 20px;
+        padding-left: 0px;
+        /* font-size: 30px; */
+        /* letter-spacing: 5px; */
+        text-indent: 1px;
+    }
+    
+    .listas ul li a{
+        font-size: 80%;
+    }
+
+    #item3{
+        background-color: black;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;    
+    }
+
+    #item4{
+        background-color:black;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #item5{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    }
+    
+    /* videos videos videos videos videos videos  */
+
+
+    #container_videos{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 0% 1230px 10px; /*7 filas de 1/7 cada una*/
+    }
+
+    #diego_dreifus{
+        background-color: rgba(12, 7, 10, 0.922);
+        width: 100%;
+        height: 100%;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .video1 h1{
+        /* color: white; */
+        /* text-align: top; */
+        position: relative;
+        /* top: 5px; */
+        font-size: 40px;
+        left: 30px;
+        top: 5px;
+    }
+    
+    .video1 h1 a:hover{
+        color: red;
+    }
+    
+    .video1 iframe{
+        bottom: 0px;
+        padding: 5px 5px;
+        position: relative;
+        border: solid 2px black;
+        justify-content: space-between;
+        align-items: center;
+        left: 13%;
+        width: 70%;
+        height: 70%;
+        bottom: 20px;
+    }
+    
+
+
+    #item5_videos{
+        position: relative;
+        top: 580px;
+        background-color: #BEE3E5;
+    }
+
+    /* epitafio epitafio epitafio epitafio epitafio  */
+
+    #container_epitafio{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 3% 2270px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #paginas{
+        grid-row: 3;
+        grid-column: 1;
+        background-color: gray;
+    }
+    
+    .botones{
+        position: relative;
+        bottom: 12.11px;
+    }
+
+    #epitafio1{
+        background-color:rgb(99, 99, 99);
+        position: relative;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .epi{
+        border-radius: 5%;
+        background-color: rgb(254, 231, 231);
+        text-align: center;
+        margin: 10px 20px;
+        font-family: verdana, arial, helvetica;
+        line-height: 18px;
+        font-size: 90%;
+        font-weight: bold;
+
+    }
+
+    #item5_epitafio1{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        /* top: 584.4px; */
+        bottom: 70px;
+    }
+    #item5_epitafio2{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio3{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 2px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio4{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 2px;
+        width: 100%;
+        height: 150%;
+    }
+
+
+    /* RESEÑAS RESEÑAS RESEÑAS RESEÑAS  */
+    
+    #container_reseñas{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 30% 200px 15% 10%; /*7 filas de 1/7 cada una*/
+    }
+    
+    #imagenes{
+        background-color:#BEE3E5;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    }
+
+    #imjuntas{
+        background-color:#BEE3E5;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    }
+
+    #textofinal{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 400px;
+        text-align: center;
+    }
+
+    #item5_reseña{
+        background-color:#d5dede;
+        grid-row: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 400px;
+
+    }
+    
+    /* CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO  */
+
+    #container_contacto{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 900px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #contacto{
+        background-color: black;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 320px;
+        font-size: 30px;
+        
+    }
+    
+
+    #item4_contacto{
+        /* position: relative; */
+        background-color:rgb(149, 116, 116);
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .volveralinicio{
+        position: relative;
+        top: 300px;
+    }
+
+    #item5_contacto{
+        background-color: #BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+
+}
+
+/********************************************************
+********************* TABLET VIEW ***********************
+********************************************************/
+@media (min-width: 720px) and (max-width: 1023px){
+    #container{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 20% 60% 20%; /*3 columnas 20% 60% 20%*/
+        grid-template-rows: 9% 5% 30% 1150px 20%; /*5 filas de 10% 30% 20% 20% 20%*/
+    }
+
+
+
+
+    #item1{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 23px;
+        padding: 0px 20px 2px;
+    }
+    
+
+    
+    .listas ul li{
+        padding: 0px 0px 0px 1px;
+        right: 25px;
+        padding-left: 0px;
+    }
+    
+    .listas ul li a{
+        font-size: 30px;
+        /* letter-spacing: 5px; */
+        text-indent: 20px;
+    }
+
+    #item2{
+        background-color: #8C3E62;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+
+    #item3{
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #item4{
+        background-color: black;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #item5{
+        background-color: #BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        position: relative;
+        /* top: 1300px; */
+        /* right: 20px; */
+    }
+
+    .fondocontacto a img{
+        width: 80px;
+        height: 80px;
+    }
+
+    /* videos videos videos videos videos videos  */
+
+    #container_videos{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 1700px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #diego_dreifus{
+        background-color: rgba(12, 7, 10, 0.922);
+        width: 100%;
+        height: 100%;
+    }
+
+    .video1 h1{
+        /* color: white; */
+        text-align: center;
+        position: relative;
+        /* top: 5px; */
+        font-size: 40px;
+        left: 0px;
+        bottom: 10px;
+    }
+    
+    .video1 h1 a:hover{
+        color: red;
+    }
+    
+    .video1 iframe{
+        position: relative;
+        padding: 5px 5px;
+        border: solid 2px black;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        left: 13%;
+        width: 70%;
+        height: 250px;
+        bottom: 0px;
+    }
+
+    #item5_videos{
+        position: relative;
+        top: 1350px;
+        background-color: BEE3E5;
+    }
+
+
+    /* epitafio epitafio epitafio epitafio epitafio  */
+
+    #container_epitafio{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 3% 1300px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #paginas{
+        grid-row: 3;
+        grid-column: 1;
+        background-color: gray;
+    }
+    
+    .botones{
+        position: relative;
+        bottom: 12.11px;
+    }
+
+    #epitafio1{
+        background-color:rgb(99, 99, 99);
+        position: relative;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .epi{
+        border-radius: 5%;
+        background-color: rgb(254, 231, 231);
+        text-align: center;
+        margin: 10px 20px;
+        font-family: verdana, arial, helvetica;
+        line-height: 18px;
+        font-size: 90%;
+        font-weight: bold;
+
+    }
+
+    #item5_epitafio1{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio2{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 260px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio3{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio4{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+
+    /* RESEÑAS RESEÑAS RESEÑAS RESEÑAS  */
+    
+    #container_reseñas{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 20% 200px 10% 20%; /*7 filas de 1/7 cada una*/
+    }
+    
+    #imagenes{
+        background-color:#BEE3E5;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    }
+
+    #imjuntas{
+        background-color:#BEE3E5;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /* padding: 0px 25px 25px 0px; */
+    }
+
+    #textofinal{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 400px;
+        text-align: center;
+    }
+
+    #item5_reseña{
+        background-color:#d5dede;
+        grid-row: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 400px;
+
+    }
+
+    /* CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO  */
+
+    #container_contacto{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 900px 15%; /*7 filas de 1/7 cada una*/
+    }
+
+    #contacto{
+        background-color: black;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 230px;
+        font-size: 30px;
+        
+    }
+    
+
+    #item4_contacto{
+        /* position: relative; */
+        background-color:rgb(149, 116, 116);
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .volveralinicio{
+        position: relative;
+        top: 210px;
+    }
+
+    #item5_contacto{
+        background-color: #BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+
+}
+
+
+
+ /*************************************************************************
+ ************************VISTA DESKTOP************************************
+ ***************************************************************************/
+
+@media (min-width: 1024px) {
+    #container{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 25% 25% 25% 25%; /*4 columnas de 25 % cada una*/
+        grid-template-rows: 7% 5% 43% 1200px 20%; /*5 filas de 10% 30% 20% 20% 20%*/
+    }
+
+
+    
+    .item{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+     
+    #item1{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 20px;
+        padding: 0px 20px 2px;
+    }
+    
+
+    
+    .listas ul li{
+        padding: 0px 0px 0px 1px;
+        right: 25px;
+        padding-left: 20px;
+    }
+    
+    .listas ul li a{
+        font-size: 30px;
+        /* letter-spacing: 5px; */
+        text-indent: 40px;
+    }
+
+    #item2{
+        background-color: #8C3E62;
+        grid-row: 2; /* fila1 */
+        grid-column-start: 1; /* coge de la columna 2 */
+        grid-column-end: 5; /* hasta la columna 5 (la columna 5 no incluida) */
+    }
+    
+    #item3{
+        background-color: black;
+        grid-row: 3; 
+        grid-column-start: 1;
+        grid-column-end: 5; 
+    }  
+
+    #item4{
+        background-color: black;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    #item5{
+        background-color: #BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .fondocontacto a img{
+        width: 80px;
+        height: 80px;
+    }
+
+
+    /* videos videos videos videos videos videos */
+     /* videos videos videos videos videos videos */
+      /* videos videos videos videos videos videos */
+       /* videos videos videos videos videos videos */
+     /* videos videos videos videos videos videos */    
+
+    #container_videos{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 700px; /*7 filas de 1/7 cada una*/
+    }
+
+    .video1 h1{
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        font-size: 40px;
+    }
+
+    .video1 h1 a:hover{
+        color: red;
+    }
+
+    .video1 iframe{
+        width: 450px;
+        height: 350px;
+        /* left: 70px; */
+        padding: 20px 20px;
+        position: relative;
+        display: inline;
+        border: solid 2px black;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 0px;
+    }
+
+
+    
+    #item5_videos{
+        position: relative;
+        top: 260px;
+    }
+
+    /* epitafio epitafio epitafio epitafio epitafio  */
+
+    #container_epitafio{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 3% 1100px 10%; /*7 filas de 1/7 cada una*/
+    }
+
+    #paginas{
+        grid-row: 3;
+        grid-column: 1;
+        background-color: gray;
+    }
+    
+    .botones{
+        position: relative;
+        bottom: 12.11px;
+    }
+
+    #epitafio1{
+        background-color:rgb(99, 99, 99);
+        position: relative;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .epi{
+        border-radius: 5%;
+        background-color: rgb(254, 231, 231);
+        text-align: center;
+        margin: 10px 20px;
+        font-family: verdana, arial, helvetica;
+        line-height: 18px;
+        font-size: 90%;
+        font-weight: bold;
+
+    }
+
+    #item5_epitafio1{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio2{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 830px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio3{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+    #item5_epitafio4{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 150%;
+    }
+
+    /* RESEÑAS RESEÑAS RESEÑAS RESEÑAS  */
+    
+    #container_reseñas{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 15% 800px 10% 20%; /*7 filas de 1/7 cada una*/
+    }
+    
+    #imagenes{
+        background-color:#BEE3E5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    }
+
+    #imjuntas{
+        background-color:#BEE3E5;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding-left: 25%;
+    }
+
+    #textofinal{
+        background-color:#BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 250px;
+        text-align: center;
+    }
+
+    #item5_reseña{
+        background-color:#d5dede;
+        grid-row: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+        top: 250px;
+
+    }
+
+
+    /* CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO  */
+
+    #container_contacto{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr; /*1 columnas del 100%*/
+        grid-template-rows: 7% 5% 40% 900px 15%; /*7 filas de 1/7 cada una*/
+    }
+
+    #contacto{
+        background-color: black;
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 230px;
+        font-size: 30px;
+        width: 100%;    
+    }
+
+
+    #item4_contacto{
+        /* position: relative; */
+        background-color:rgb(149, 116, 116);
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .volveralinicio{
+        position: relative;
+        top: 210px;
+    }
+
+    #item5_contacto{
+        background-color: #BEE3E5;
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
+
